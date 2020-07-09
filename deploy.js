@@ -40,7 +40,7 @@ try {
           (error, data) => (error ? reject(error) : resolve(data))
         )
       );
-      fs.unlinkSync(`lambda.zip`);
+      fs.unlinkSync(`${target}/lambda.zip`);
       console.log("✅ [updateFunctionCode] complete!");
 
       await new Promise((resolve, reject) =>
