@@ -2,7 +2,6 @@
 node_modules
 src/**/*.zip
 src/**/yarn.lock
-src/**/package.json
 
 # Logs
 logs
